@@ -34,6 +34,35 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+<style>
+
+    /* Certifications cards: scoped to the new section only */
+    #certifications .certification-card {
+      height: 100%; padding: 32px 26px; text-align: center;
+      background: #fff; border: 1px solid #e4eaf1; border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(23, 59, 108, 0.06);
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    #certifications .certification-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(23, 59, 108, 0.13);
+    }
+    #certifications .certification-symbol {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 86px; height: 86px; margin-bottom: 18px;
+      border-radius: 50%; background: #eaf6fc; color: #149ddd; font-size: 44px;
+    }
+    #certifications .certification-provider {
+      color: #68788a; font-size: 13px; font-weight: 600;
+      letter-spacing: .04em; margin-bottom: 10px;
+    }
+    #certifications .certification-card h3 {
+      color: #173b6c; font-size: 19px; font-weight: 700;
+      line-height: 1.45; margin-bottom: 16px;
+    }
+    #certifications .certification-date { color: #536476; margin-bottom: 0; }
+    #certifications .certification-date i { color: #149ddd; margin-right: 5px; }
+  </style>
 </head>
 
 <body>
@@ -64,6 +93,7 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
 <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-code-alt"></i> <span>Skills</span></a></li>
+<li><a href="#certifications" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Certifications</span></a></li>
 <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <li><a href="#highlights" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Key Highlights</span></a></li>
@@ -624,6 +654,35 @@
     </div>
   </div>
 </section><!-- End Skills Section -->
+
+    <!-- ======= Certifications Section ======= -->
+    <section id="certifications" class="certifications section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Professional Certifications</h2>
+          <p>Industry-recognized AWS certifications in cloud architecture and data engineering.</p>
+        </div>
+        <div class="row justify-content-center g-4">
+          <div class="col-lg-5 col-md-6">
+            <div class="certification-card">
+              <div class="certification-symbol" aria-hidden="true"><i class="bx bx-cloud"></i></div>
+              <div class="certification-provider">Amazon Web Services (AWS)</div>
+              <h3>AWS Certified Solutions Architect – Associate</h3>
+              <p class="certification-date"><i class="bx bx-calendar-check" aria-hidden="true"></i> Earned April 23, 2026</p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="certification-card">
+              <div class="certification-symbol" aria-hidden="true"><i class="bx bx-data"></i></div>
+              <div class="certification-provider">Amazon Web Services (AWS)</div>
+              <h3>AWS Certified Data Engineer – Associate</h3>
+              <p class="certification-date"><i class="bx bx-calendar-check" aria-hidden="true"></i> Earned August 3, 2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Certifications Section -->
+
 
 
     <!-- ======= Resume Section ======= -->
